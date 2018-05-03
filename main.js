@@ -13,3 +13,10 @@ function getSessionId() {
     })
     .catch(err => console.log(err))
 }
+    })
+    .catch(err => console.log(err))
+}
+
+function downloadFile() {
+  fetch(`${baseUrl}/download`).then(res => res.blob())
+}
