@@ -1,2 +1,3 @@
 # turbo-server-client
-Mocking API responses using a web client 
+
+Testing REST API endpoint responses using a web client.
